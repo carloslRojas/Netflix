@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: "Arimo", sans-serif;
+}
+
+ 
+.fila {
+   display: flex;
+   z-index: 200;
+}
+
+
+.hero{
+    
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a56dc29b-a0ec-4f6f-85fb-50df0680f80f/528ea897-7fe6-4b8c-98e4-dc0c8ca16351/VE-es-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+    position: relative; 
+    
+    height: 75vh; 
+    min-height: 400px;
+}
+
+
+.fondo {
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    height: 75vh;
+    min-height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+.container {
+    z-index: 200; 
+}
+
+/**/
+#columna {
+    justify-content: center;
+    align-items: center; 
+    color: white; 
+    gap: 15px;
+    margin: 68px 0px 0px 0px ;
+    display: flex;
+    flex-direction: column;
+    z-index: 300;
+}
+
+/**/
+svg {
+    width: 175px;
+    fill: rgb(190, 23, 23); 
+    z-index: 200;
+}
+
+/**/
+nav {
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0px 160px 0px; 
+    padding: 24px 48px 24px 48px ;
+    z-index: 200; 
+}
+
+/**/
+button {
+    background-color: rgb(190, 23, 23); 
+    color: white; 
+    padding: 6px 12px; 
+    border: none; 
+}
+
+/**/
+nav div select {
+    background-color: transparent;
+    color: white;
+    padding: 2px 6px;
+ }
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.parrafo {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0.418);
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border-radius: 7px;
+
+}
+
+.email {
+    gap: 8px;
+}
+
+
+/*body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a56dc29b-a0ec-4f6f-85fb-50df0680f80f/528ea897-7fe6-4b8c-98e4-dc0c8ca16351/VE-es-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    /* flex-direction: row; 
+    justify-content: space-between;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+    /* margin-right: 300px; 
+}
+
+.boton {
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.boton:hover{
+    color: rgb(181, 0, 0)
+}
+
+.boton_2 {
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.boton_2:hover{
+    color: rgb(181, 0, 0)
+}
+
+.p{
+    color: white;
+    text-align: center;
+    margin: 18px;
+    line-height: 7px; 
+}
+
+
+#Grupo1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1,5em;
+}
+
+#Grupo2 {
+    display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form label{
+    margin-right: 12px;
+    width: 75px; 
+    height: 100px; 
+}
+*/
