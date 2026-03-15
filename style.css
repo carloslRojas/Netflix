@@ -71,12 +71,17 @@ nav {
 
 /**/
 button {
-    background-color: rgb(299% 9% 20%); 
+    background-color: rgb(229, 9, 20); 
     color: white;
     padding: 8px 16px;
     font-size: 1rem; 
     font-weight: bold;
-    border-radius: 4px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, rgb(229, 9, 20), rgb(139, 3, 3));
+    transition: background 0.3s ease;
 }
 
 /**/
